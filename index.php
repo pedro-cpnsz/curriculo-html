@@ -10,7 +10,7 @@
     <header>
         <div>
             <h1>Pedro Campana de Souza</h1>
-            <h2>Tenho 18 anos e estou cursando ADS na Faculdade Senac Cascavel.</h2>
+            <h2>Tenho 19 anos e estou cursando ADS na Faculdade Senac Cascavel.</h2>
         </div>
         <div>
             <img class="foto" src="monotast.jpg" alt="">        
@@ -19,41 +19,40 @@
     <div class="sobre">
         <h1>Sobre</h1>
         <p>
-            Tenho 18 anos, estou cursando ADS no Senac Maringá, trabalho na empresa DB1 como estagiário na área de Qualidade de Processos.<br>
-            Me destaco pela minha criatividade e inovação no ambiente de trabalho, buscando sempre resolver os problemas trazendo algo novo e de fácil utilização.<br>
-            Possuo experiência com desenvolvimento web, auditorias internas e ISOs. Fiz 2 anos de robótica, onde aprendi um pouco de linguace C++, também realizei um curso básico sobre SQL online.
+            Durante toda minha infância eu estive ao lado dos meus pais acompanhando o trabalho deles, meu pai, sempre trabalhou na área de infraestrutura do TI, principalmente com o sistema Proteus da TOTVS, minha mãe, trabalhou em diferentes software houses e em diferentes cargos, suporte, sucesso do cliente, testes e implantação.<br>
+            Com isso eu aprendi a gostar de tecnologia e me interessei rapidamente pela informática, sempre interessado em entender como esses sistemas que eles sustentavam, foram criados.
         </p>
     </div>
     <div class="profissional">
         <h1>Experiência profissional</h1>
         <p>
-            Tenho 18 anos, estou cursando ADS no Senac Maringá, trabalho na empresa DB1 como estagiário na área de Qualidade de Processos.<br>
-            Me destaco pela minha criatividade e inovação no ambiente de trabalho, buscando sempre resolver os problemas trazendo algo novo e de fácil utilização.<br>
-            Possuo experiência com desenvolvimento web, auditorias internas e ISOs. Fiz 2 anos de robótica, onde aprendi um pouco de linguace C++, também realizei um curso básico sobre SQL online.
+            Tive algumas experiências ainda antes de estudar a fundo o mundo da tecnologia, trabalhei alguns meses em uma assistência técnica para eletrônicos e posteriormente montando, formatando e otimizando computadores.<br>
+            Minha primeira experiência profissional foi em 2022, em uma software house em Maringá chamada DB1 Group, eu atuava em um produto chamado Anymarket. Entrei como jovem aprendiz na área de controle de qualidade processual, realizando auditorias e análises em cima dos processos que envolviam o produto, desde o desenvolvimento até o pós-venda.<br>
+            Saí da DB1 após quase 2 anos atuando na empresa, hoje atuo em projetos na empresa Lasse de Toledo, meu tio é sócio desta empresa de materiais elétricos e juntos desenvolvemos e construimos protótipos para diferentes fins.
         </p>
     </div>
     <div class="educacao">
         <h1>Educação</h1>
         <p>
-            Tenho 18 anos, estou cursando ADS no Senac Maringá, trabalho na empresa DB1 como estagiário na área de Qualidade de Processos.<br>
-            Me destaco pela minha criatividade e inovação no ambiente de trabalho, buscando sempre resolver os problemas trazendo algo novo e de fácil utilização.<br>
-            Possuo experiência com desenvolvimento web, auditorias internas e ISOs. Fiz 2 anos de robótica, onde aprendi um pouco de linguace C++, também realizei um curso básico sobre SQL online.
+            Hoje estou cursando Análise e Desenvolvimento de Sistemas na Faculdade Senac Cascavel, no momento faltam apenas 2 semestres para me graduar. Durante meu ensino médio realizei alguns cursos como eletrônica básica, robótica, Python básico, SQL básico e estudei inglês de forma autodidata.<br>
         </p>
     </div>
     <div class="habilidades">
         <h1>Habilidades</h1>
         <p>
-            Tenho 18 anos, estou cursando ADS no Senac Maringá, trabalho na empresa DB1 como estagiário na área de Qualidade de Processos.<br>
-            Me destaco pela minha criatividade e inovação no ambiente de trabalho, buscando sempre resolver os problemas trazendo algo novo e de fácil utilização.<br>
-            Possuo experiência com desenvolvimento web, auditorias internas e ISOs. Fiz 2 anos de robótica, onde aprendi um pouco de linguace C++, também realizei um curso básico sobre SQL online.
+            Uma das diretrizes da DB1 Group é "Feedback rápido e constante. (Realizar acompanhamentos com seu gestor semanalmente)", e durante minha atuação, nenhuma cerimônia de acompanhamento não foi realizada. Após 1 ano empregatício, é realizada uma cerimônia chamada ADM, e os pontos levantados pela minha chefe e companheiros foram:
         </p>
+        <ul>
+            <li>Criatividade</li>
+            <li>Inovação</li>
+            <li>Resiliência</li>
+        </ul>
     </div>
     <div class="projetos">
         <h1>Projetos</h1>
         <p>
-            Tenho 18 anos, estou cursando ADS no Senac Maringá, trabalho na empresa DB1 como estagiário na área de Qualidade de Processos.<br>
-            Me destaco pela minha criatividade e inovação no ambiente de trabalho, buscando sempre resolver os problemas trazendo algo novo e de fácil utilização.<br>
-            Possuo experiência com desenvolvimento web, auditorias internas e ISOs. Fiz 2 anos de robótica, onde aprendi um pouco de linguace C++, também realizei um curso básico sobre SQL online.
+            No curso de robótica que realizei durante 2 anos, construí um robô para competir na modalidade sumô, onde deve-se derrubar o robô adversário em um buraco na arena.<br>
+            Para que eu fosse direcionado para a área de desenvolvimento na DB1, fui designado para construir do zero um site intranet para os colaboradores do Anymarket. Desenvolvi esse site através do framework Wordpress e assim que ele foi lançado em produção, virou modelo para os outros sites intranet da empresa.
         </p>
     </div>
     <div class="contato">
@@ -71,7 +70,7 @@
                 <label class="email">E-mail:</label>
                 <input type="email" name="email"><br>
                 <label class="tel">Telefone:</label>
-                <input type="tel" name="telefone"><br>
+                <input type="tel" name="telefone" placeholder="(99) 99999-9999" data-mask="(00) 0000-0000"><br>
                 <input class="enviar" type="submit" value="ENVIAR">
             </form>
         </div>
