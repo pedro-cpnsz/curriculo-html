@@ -7,18 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="sumario">
+        <h2>Sumário</h2>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#profissional">Experiência profissional</a></li>
+            <li><a href="#educacao">Educação</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
     <header>
         <div>
             <h1>Pedro Campana de Souza</h1>
             <h2>Tenho 19 anos e estou cursando ADS na Faculdade Senac Cascavel.</h2>
         </div>
-        <div>
-            <img class="foto" src="monotast.jpg" alt="">        
+        <div class="foto-div">
+            <img class="foto" src="pedro.jpg" alt="">        
         </div>
     </header>
     <div class="sobre">
         <hr class="solid">
-        <h1>Sobre</h1>
+        <h1 id="sobre" class="titulos">Sobre</h1>
         <hr class="solid">
         <p>
             Durante toda minha infância eu estive ao lado dos meus pais acompanhando o trabalho deles, meu pai, sempre trabalhou na área de infraestrutura do TI, principalmente com o sistema Proteus da TOTVS, minha mãe, trabalhou em diferentes software houses e em diferentes cargos, suporte, sucesso do cliente, testes e implantação.<br>
@@ -27,7 +38,7 @@
     </div>
     <div class="profissional">
         <hr class="solid">
-        <h1>Experiência profissional</h1>
+        <h1 id="profissional" class="titulos">Experiência profissional</h1>
         <hr class="solid">
         <p>
             Tive algumas experiências ainda antes de estudar a fundo o mundo da tecnologia, trabalhei alguns meses em uma assistência técnica para eletrônicos e posteriormente montando, formatando e otimizando computadores.<br>
@@ -37,7 +48,7 @@
     </div>
     <div class="educacao">
         <hr class="solid">
-        <h1>Educação</h1>
+        <h1 id="educacao" class="titulos">Educação</h1>
         <hr class="solid">
         <p>
             Hoje estou cursando Análise e Desenvolvimento de Sistemas na Faculdade Senac Cascavel, no momento faltam apenas 2 semestres para me graduar. Durante meu ensino médio realizei alguns cursos como eletrônica básica, robótica, Python básico, SQL básico e estudei inglês de forma autodidata.<br>
@@ -45,7 +56,7 @@
     </div>
     <div class="habilidades">
         <hr class="solid">
-        <h1>Habilidades</h1>
+        <h1 id="habilidades" class="titulos">Habilidades</h1>
         <hr class="solid">
         <p>
             Uma das diretrizes da DB1 Group é "Feedback rápido e constante. (Realizar acompanhamentos com seu gestor semanalmente)", e durante minha atuação, nenhuma cerimônia de acompanhamento não foi realizada. Após 1 ano empregatício, é realizada uma cerimônia chamada ADM, e os pontos levantados pela minha chefe e companheiros foram:
@@ -58,7 +69,7 @@
     </div>
     <div class="projetos">
         <hr class="solid">
-        <h1>Projetos</h1>
+        <h1 id="projetos" class="titulos">Projetos</h1>
         <hr class="solid">
         <p>
             No curso de robótica que realizei durante 2 anos, construí um robô para competir na modalidade sumô, onde deve-se derrubar o robô adversário em um buraco na arena.<br>
@@ -67,7 +78,7 @@
     </div>
     <div class="contato">
         <hr class="solid">
-        <h1>Contato</h1>
+        <h1 id="contato" class="titulos">Contato</h1>
         <hr class="solid">
         <div class="social">
             <a href="https://www.linkedin.com/in/pedro-campana-de-souza" target="_blank"><img src="icons8-linkedin-48.png" alt="">LinkedIn</a>
@@ -87,6 +98,9 @@
             </form>
         </div>
     </div>
+    <footer>
+        
+    </footer>
 </body>
 
 </html>
